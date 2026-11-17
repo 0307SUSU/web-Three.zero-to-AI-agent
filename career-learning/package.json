@@ -1,0 +1,8 @@
+{
+  "name": "ai-transition-learning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:day01": "node --experimental-strip-types --test week01/day01/countUsablePoints.test.ts"
+  }
+}
