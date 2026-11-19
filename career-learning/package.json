@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:day01": "node --experimental-strip-types --test week01/day01/countUsablePoints.test.ts"
+    "test:day01": "node --experimental-strip-types --test week01/day01/countUsablePoints.test.ts",
+    "demo:day02": "node --experimental-strip-types week01/day02/requestDemo.ts",
+    "demo:abort": "node --experimental-strip-types week01/day02/abortSignalDemo.ts"
   }
 }
