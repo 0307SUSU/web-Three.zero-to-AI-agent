@@ -11,6 +11,7 @@
 | `AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.md` | 24 周转型计划、能力标准、阶段任务、求职策略和动态调整规则 |
 | `AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.pdf` | 转型计划的便携阅读版本 |
 | `复习文档.md` | 全仓库唯一的复习文档，持续记录知识、代码、测试、错误和面试表达 |
+| `能力问题分析.md` | 记录能力缺口、错误习惯、根因、纠正动作和复发状态 |
 | `career-learning/README.md` | 练习区状态、运行命令和学习进度 |
 | `career-learning/week01/` | 第 1 周的任务说明、实现和测试 |
 
@@ -75,6 +76,7 @@ npm run demo:abort
 ├── AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.pdf
 ├── README.md
 ├── 复习文档.md
+├── 能力问题分析.md
 └── career-learning
     ├── README.md
     ├── package.json
