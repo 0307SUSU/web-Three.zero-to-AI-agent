@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "runId": "run-2026-11-23-001",
+  "logs": [
+    {
+      "id": "log-001",
+      "timestampMs": 1000,
+      "level": "info",
+      "source": "planner",
+      "message": "Route planning started"
+    },
+    {
+      "id": "log-002",
+      "timestampMs": 1120,
+      "level": "debug",
+      "source": "perception",
+      "message": "Detected 12 obstacles"
+    },
+    {
+      "id": "log-003",
+      "timestampMs": 1250,
+      "level": "warning",
+      "source": "localization",
+      "message": "Position confidence dropped"
+    },
+    {
+      "id": "log-004",
+      "timestampMs": 1400,
+      "level": "info",
+      "source": "controller",
+      "message": "Trajectory updated"
+    },
+    {
+      "id": "log-005",
+      "timestampMs": 1530,
+      "level": "error",
+      "source": "planner",
+      "message": "No valid route found"
+    },
+    {
+      "id": "log-006",
+      "timestampMs": 1680,
+      "level": "info",
+      "source": "controller",
+      "message": "Vehicle stopped"
+    }
+  ]
+}
