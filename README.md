@@ -9,7 +9,6 @@
 | 文档 | 用途 |
 |---|---|
 | `AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.md` | 24 周转型计划、能力标准、阶段任务、求职策略和动态调整规则 |
-| `AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.pdf` | 转型计划的便携阅读版本 |
 | `复习文档.md` | 全仓库唯一的复习文档，持续记录知识、代码、测试、错误和面试表达 |
 | `能力问题分析.md` | 记录能力缺口、错误习惯、根因、纠正动作和复发状态 |
 | `协作协议.md` | 双机与两套 Codex 的同步、验收和 Git 协作规则 |
@@ -81,7 +80,6 @@ npm run demo:abort
 ```text
 .
 ├── AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.md
-├── AI_APPLICATION_ENGINEER_TRANSITION_PLAN_2026-11-16.pdf
 ├── README.md
 ├── 复习文档.md
 ├── 能力问题分析.md
