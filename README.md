@@ -30,9 +30,9 @@
 | 第 3 天：TypeScript 数据建模与转换 | 已完成 |
 | 第 1 周剩余任务：个人仿真日志浏览器 | 进行中 |
 
-当前任务只使用自造合成 JSON，先完成数据契约、`unknown` 校验和搜索，再进入 React 列表与空状态。
+当前任务只使用自造合成 JSON，先完成类型约束（数据契约）、`unknown` 运行时校验和搜索，再进入 React 列表与空状态。
 
-当前下一步：在 `simulationLog.ts` 中定义 `LogLevel`、`SimulationLog` 和 `SimulationLogFile`。
+当前下一步：完成每条日志的字段校验，构造合法日志列表并返回 `ParseResult`。
 
 已掌握内容：
 
