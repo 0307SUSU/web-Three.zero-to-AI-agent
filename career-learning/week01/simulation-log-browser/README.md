@@ -301,6 +301,14 @@ validateSimulationLogFile(value)
 
 这些能力分别在后端、AI 和具身可视化阶段学习。当前项目只解决“数据进入前端后，如何安全校验、转换、搜索和展示”。
 
+## 实现演进
+
+错误版本、TypeScript 报错、重复条件和最终重构过程保存在：
+
+`IMPLEMENTATION_HISTORY.md`
+
+该文件用于回顾“为什么这样改”，不参与实际运行。
+
 ## 数据格式
 
 示例文件：`sampleLogs.json`
