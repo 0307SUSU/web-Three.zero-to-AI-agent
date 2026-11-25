@@ -346,16 +346,17 @@ validateSimulationLogFile(value)
 - [x] 定义 `SimulationLog`；
 - [x] 定义 `SimulationLogFile`；
 - [x] 设计成功/失败联合结果；
-- [ ] 实现 `unknown` 运行时校验；
+- [x] 实现 `unknown` 运行时校验；
   - [x] 根对象类型守卫；
   - [x] `version`；
   - [x] `runId`；
   - [x] `logs` 数组检查；
   - [x] 单条日志对象守卫与索引错误；
-  - [ ] `id`、`timestampMs`、`level`、`source`、`message`；
-  - [ ] 构造合法日志列表并返回最终结果；
+  - [x] `id`、`timestampMs`、`level`、`source`、`message`；
+  - [x] 构造合法日志列表并返回最终结果；
 - [ ] 实现搜索；
-- [ ] 编写解析和搜索测试。
+- [x] 编写解析测试：9 个用例通过；
+- [ ] 下一阶段编写搜索测试。
 
 ## 阶段 1 验收
 

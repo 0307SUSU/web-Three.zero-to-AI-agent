@@ -32,7 +32,7 @@
 
 当前任务只使用自造合成 JSON，先完成类型约束（数据契约）、`unknown` 运行时校验和搜索，再进入 React 列表与空状态。
 
-当前下一步：完成每条日志的字段校验，构造合法日志列表并返回 `ParseResult`。
+当前下一步：实现 `searchLogs`，完成搜索与 level 筛选并补测试。
 
 已掌握内容：
 
@@ -88,6 +88,13 @@ npm run demo:abort
 ```bash
 npm run test:day03
 npm run practice:day03
+```
+
+仿真日志校验与类型检查：
+
+```bash
+npm run test:simulation-log
+npm run typecheck
 ```
 
 演示使用本地 HTTP 服务和 Node.js 内置 `fetch`，不访问公司系统或外部业务数据。

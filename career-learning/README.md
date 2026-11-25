@@ -54,6 +54,20 @@ npm run test:day03
 npm run practice:day03
 ```
 
+TypeScript 严格检查：
+
+```bash
+npm run typecheck
+```
+
+仿真日志校验测试：
+
+```bash
+npm run test:simulation-log
+```
+
+`week01/day02/fetchreq.ts` 依赖 React 运行时和类型包，在当前无 React 依赖的环境中暂不纳入 `typecheck`；进入真实 React 项目阶段后再启用。
+
 ## 转移方式
 
 GitHub 仓库是唯一进度来源。公司电脑和家庭电脑都通过 Git 同步，不把公司代码、数据或配置提交到此仓库。
