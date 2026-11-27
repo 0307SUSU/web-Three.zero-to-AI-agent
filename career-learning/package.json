@@ -8,7 +8,7 @@
     "demo:abort": "node --experimental-strip-types week01/day02/abortSignalDemo.ts",
     "test:day03": "node --experimental-strip-types --test week01/day03/summarizeFrames.test.ts",
     "practice:day03": "node --experimental-strip-types week01/day03/arrayMethodsPractice.ts",
-    "test:simulation-log": "node --experimental-strip-types --test week01/simulation-log-browser/simulationLog.test.ts",
+    "test:simulation-log": "node --experimental-strip-types week01/simulation-log-browser/simulationLog.test.ts",
     "typecheck": "npx --yes --package typescript tsc --project tsconfig.json"
   }
 }

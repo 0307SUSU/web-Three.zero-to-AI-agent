@@ -91,6 +91,27 @@ function isSimulationLog(
   return valid;
 }
 
+export function searchLogs(
+  logs: readonly SimulationLog[],
+  query: string,
+  levels: LogLevel | "all" = "all",
+): SimulationLog[] {
+        const queryfil = query.trim().toLowerCase();
+        return logs.filter((log)=>{
+            const id = log.id;
+            const level = log.level;
+            const source = log.source;
+            const message = log.message;
+            const idfil = id.toLowerCase().includes(queryfil);
+            const sourcefil = source.toLowerCase().includes(queryfil);
+            const messagefil = message.toLowerCase().includes(queryfil);
+            const matchesQuery = queryfil === "" || idfil || sourcefil || messagefil;
+            const matchesLevel = levels === "all" || levels === level;
+            return matchesQuery && matchesLevel
+        });
+
+}
+
 export function validateSimulationLogFile(raw: unknown): ParseResult {
   const errors: string[] = [];
 

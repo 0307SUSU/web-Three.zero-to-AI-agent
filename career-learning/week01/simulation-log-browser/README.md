@@ -362,9 +362,9 @@ validateSimulationLogFile(value)
   - [x] 单条日志对象守卫与索引错误；
   - [x] `id`、`timestampMs`、`level`、`source`、`message`；
   - [x] 构造合法日志列表并返回最终结果；
-- [ ] 实现搜索；
+- [x] 实现搜索；
 - [x] 编写解析测试：9 个用例通过；
-- [ ] 下一阶段编写搜索测试。
+- [x] 编写搜索测试：8 个用例通过；合计 17/17。
 
 ## 阶段 1 验收
 
