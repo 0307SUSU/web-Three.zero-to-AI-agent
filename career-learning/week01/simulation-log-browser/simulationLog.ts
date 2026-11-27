@@ -137,13 +137,6 @@ export function validateSimulationLogFile(raw: unknown): ParseResult {
     };
   }
 
-  if (!isNonEmptyString(runId)) {
-    return {
-      ok: false,
-      errors: ["runId 必须是非空字符串"],
-    };
-  }
-
   return {
     ok: true,
     data: {
